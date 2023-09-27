@@ -17,7 +17,7 @@ export default function Layout({ children, token: userToken }) {
   };
   return (
     <div className="bg-white">
-      <div className="py-3 px-10 border-[1px] border-black">
+      <div className="py-3 px-10">
         <div className="flex justify-between">
           <div className="flex items-center gap-3">
             <BiMenu size={35} />
@@ -38,8 +38,8 @@ export default function Layout({ children, token: userToken }) {
           </div>
         </div>
       </div>
-      <div className="">
-        <aside className="border-[1px] border-black">
+      <div className="flex gap-5">
+        <aside className="w-96">
           <div className="p-5 flex flex-col gap-5">
             <span className="font-bold text-[#66666675]">Analysis</span>
             <div className="flex gap-5 hover:bg-[#198564] p-3 hover:text-white cursor-pointer rounded-md">
@@ -71,8 +71,8 @@ export default function Layout({ children, token: userToken }) {
               </ul>
             </details>
           </div>
-          <div>{children}</div>
         </aside>
+        <div className="w-full">{children}</div>
       </div>
     </div>
   );
