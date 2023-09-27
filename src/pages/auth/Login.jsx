@@ -8,8 +8,8 @@ const validationSchema = Yup.object({
 });
 
 export default function Login() {
-  const doLogin = () => {
-    console.log("ok");
+  const doLogin = (values) => {
+    console.log(values);
   };
 
   return (
