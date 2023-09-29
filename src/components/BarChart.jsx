@@ -36,13 +36,13 @@ export function BarChart({ dataChart }) {
       legend: {
         labels: {
           usePointStyle: true,
-          pointStle: "circle",
+          pointStyle: "circle",
         },
       },
     },
   };
   return (
-    <div className="w-[45em] h-[45em]">
+    <div className="w-[45em]">
       <Bar options={options} data={data} ></Bar>
     </div>
   );
