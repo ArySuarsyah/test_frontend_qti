@@ -4,7 +4,7 @@ Aplikasi penjualan sederhana untuk mengelola inventaris dan transaksi.
 
 ## Deskripsi Singkat
 
-Sales App adalah aplikasi penjualan yang memudahkan Anda untuk mengelola inventaris produk, mencatat transaksi, dan melacak pendapatan. Didesain untuk kebutuhan bisnis kecil dan menengah.
+Sales App adalah aplikasi penjualan yang memudahkan Anda untuk mengelola produk, mencatat transaksi. Didesain untuk kebutuhan bisnis kecil dan menengah.
 
 ## Teknologi yang Digunakan
 
