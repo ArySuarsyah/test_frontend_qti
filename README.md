@@ -24,7 +24,7 @@ Sales App adalah aplikasi penjualan yang memudahkan Anda untuk mengelola produk,
    
    **git clone https://github.com/ArySuarsyah/test_frontend_qti**
 
-2. **Masuk ke directory proyekt** : Jalankan perintah berikut di terminal Anda untuk pindah direktori:
+2. **Masuk ke direktoru proyek** : Jalankan perintah berikut di terminal Anda untuk pindah direktori:
      
    **cd nama_direktori**
    
