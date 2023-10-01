@@ -25,12 +25,15 @@ Sales App adalah aplikasi penjualan yang memudahkan Anda untuk mengelola inventa
    **git clone (https://github.com/ArySuarsyah/test_frontend_qti)**
 
 2. **Masuk ke directory proyekt** : Jalankan perintah berikut di terminal Anda untuk pindah direktori:
+     ```bash
    **cd nama_direktori**
    
-3. **Instalasi dependensi** : Jalankan perintah berikut di terminal Anda untuk menginstall proyek ke komputer lokal Anda:
+4. **Instalasi dependensi** : Jalankan perintah berikut di terminal Anda untuk menginstall proyek ke komputer lokal Anda:
+     ```bash
    **npm install**
    
-5. **Jalankan proyek** : Jalankan perintah berikut di terminal Anda untuk menjalankan proyek di komputer lokal Anda:
+6. **Jalankan proyek** : Jalankan perintah berikut di terminal Anda untuk menjalankan proyek di komputer lokal Anda:\
+     ```bash
    **npm run dev**
 
 
