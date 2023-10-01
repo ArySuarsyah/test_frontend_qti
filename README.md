@@ -1,3 +1,35 @@
+# Sales App
+
+Aplikasi penjualan sederhana untuk mengelola inventaris dan transaksi.
+
+## Deskripsi Singkat
+
+Sales App adalah aplikasi penjualan yang memudahkan Anda untuk mengelola inventaris produk, mencatat transaksi, dan melacak pendapatan. Didesain untuk kebutuhan bisnis kecil dan menengah.
+
+## Teknologi yang Digunakan
+
+- **Next.js**: Framework React untuk pengembangan aplikasi web.
+- **React Redux**: Manajemen state untuk komponen React.
+- **Tailwind CSS**: Kerangka kerja CSS yang mudah dikustomisasi.
+- **DaisyUI**: Ekstensi Tailwind CSS dengan komponen UI tambahan.
+- **Iron Session**: Manajemen sesi untuk keamanan.
+- **Chart.js**: Library untuk membuat grafik dan diagram interaktif.
+
+
+## Panduan Penggunaan
+
+### Cara Mengklon Repo dan Menjalankan Aplikasi di Local
+
+1. **Klon repo ini**: Jalankan perintah berikut di terminal Anda untuk mengklon repo ke komputer lokal Anda:
+
+   ```bash
+   git clone https://github.com/namarepo/alamatrepo.git
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
