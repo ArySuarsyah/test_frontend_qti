@@ -26,7 +26,8 @@ Sales App adalah aplikasi penjualan yang memudahkan Anda untuk mengelola inventa
    git clone https://github.com/namarepo/alamatrepo.git(https://github.com/ArySuarsyah/test_frontend_qti)
 
 2. **Masuk ke directory project** : Jalankan perintah berikut di terminal Anda untuk pindah direktori:
-   cd [nama_direktori]
+   cd nama_direktori
+   
 3.**Instalasi dependensi** : Jalankan perintah berikut di terminal Anda untuk mengklon repo ke komputer lokal Anda:
    npm install
 
