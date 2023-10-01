@@ -16,25 +16,24 @@ export default function Index() {
   useEffect(() => {
     getData();
   }, [getData]);
-  console.log(salesData);
+
   return (
     <>
-      <Layout>
-        <div>
-          <div className="flex flex-col">
+      <Layout userToken={token}>
+          <div className="flex flex-col px-10">
             <span className="text-2xl font-bold">Sales</span>
             <span className="text-[#a3a3a3] font-semibold">June 2022</span>
           </div>
-          <div className="overflow-x-auto">
+          <div className="overflow-x-auto px-10 py-5">
             <table className="table table-xs font-bold">
               <thead className="h-14 text-sm">
                 <tr>
-                  <th>Product Name</th>
-                  <th>Categories</th>
-                  <th>Amount</th>
-                  <th>Items Sold</th>
-                  <th>Price</th>
-                  <th>Sales</th>
+                  <th className="md:table-cell">Product Name</th>
+                  <th className="hidden md:table-cell">Categories</th>
+                  <th className="hidden md:table-cell">Amount</th>
+                  <th className="hidden md:table-cell">Items Sold</th>
+                  <th className="hidden md:table-cell">Price</th>
+                  <th className="md:table-cell">Sales</th>
                 </tr>
               </thead>
               <tbody className="bg-white p-5">
@@ -52,12 +51,12 @@ export default function Index() {
                           {item.product}
                         </div>
                       </td>
-                      <td>
+                      <td className="hidden md:block">
                         <div className="p-2 w-24 text-center text-[#195CA8] bg-[#569bf03b] rounded-lg">{item.category}</div>
                       </td>
-                      <td>{`${item.amount} in stock`}</td>
-                      <td>{item.item_sold}</td>
-                      <td>Rp. {Number(item.price).toLocaleString("id")}</td>
+                      <td className="hidden md:table-cell">{`${item.amount} in stock`}</td>
+                      <td className="hidden md:table-cell">{item.item_sold}</td>
+                      <td className="hidden md:table-cell">Rp. {Number(item.price).toLocaleString("id")}</td>
                       <td>Rp. {Number(item.sales).toLocaleString("id")}</td>
                     </tr>
                   );
@@ -65,7 +64,6 @@ export default function Index() {
               </tbody>
             </table>
           </div>
-        </div>
       </Layout>
     </>
   );

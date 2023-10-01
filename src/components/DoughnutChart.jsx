@@ -16,20 +16,8 @@ export function DoughnutChart({ dataChart }) {
     ],
   };
 
-  // const dounghnutLabel = {
-  //   id: "dounghnutLabel",
-  //   beforeDatasetsDraw(chart, args, pluginOptions) {
-  //     const { ctx, data } = chart;
-  //     ctx.save();
-  //     const xCoor = chart.getDatasetMeta(0).data[0].x;
-  //     const yCoor = chart.getDatasetMeta(0).data[0].y;
-  //     ctx.font='bold 30px sans-serif'
-  //     ctx.fllStyle='#FD7D36'
-  //     ctx.fillText('Okelah', xCoor, yCoor)
-  //   },
-  // };
-
   const options = {
+    maintainAspectRatio:false,
     plugins: {
       legend: {
         display: false,
@@ -38,10 +26,10 @@ export function DoughnutChart({ dataChart }) {
   };
 
   return (
-    <div className="flex flex-col gap-5 justify-center items-center w-[20em] h-[22.5em]">
-      <div className="w-52 h-52 relative">
+    <div className="flex flex-col gap-5 justify-center items-center w-[100%] h-96">
+      <div className="lg:w-[100%] relative">
         <Doughnut data={data} options={options} />
-        <div className="absolute bottom-[40%] left-[40%] text-center w-10">
+        <div className="absolute bottom-[32%] left-[42%] text-center w-10">
           <span className="font-bold break-words">Total 100</span>
         </div>
       </div>

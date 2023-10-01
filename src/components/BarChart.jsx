@@ -32,6 +32,7 @@ export function BarChart({ dataChart }) {
 
   const options = {
     indexAxis: "y",
+    maintainAspectRatio:false,
     plugins: {
       legend: {
         labels: {
@@ -42,8 +43,8 @@ export function BarChart({ dataChart }) {
     },
   };
   return (
-    <div className="w-[45em]">
-      <Bar options={options} data={data} ></Bar>
+    <div className="lg:w-[100%] h-96">
+      <Bar options={options} data={data} />
     </div>
   );
 }
