@@ -23,7 +23,7 @@ Sales App adalah aplikasi penjualan yang memudahkan Anda untuk mengelola inventa
 1. **Klon repo ini**: Jalankan perintah berikut di terminal Anda untuk mengklon repo ke komputer lokal Anda:
 
    ```bash
-   git clone https://github.com/namarepo/alamatrepo.git
+   [git clone https://github.com/namarepo/alamatrepo.git](https://github.com/ArySuarsyah/test_frontend_qti)
 
 
 
