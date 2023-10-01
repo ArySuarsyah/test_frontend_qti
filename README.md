@@ -21,19 +21,19 @@ Sales App adalah aplikasi penjualan yang memudahkan Anda untuk mengelola inventa
 ### Cara Mengklon Repo dan Menjalankan Aplikasi di Local
 
 1. **Klon repo ini**: Jalankan perintah berikut di terminal Anda untuk mengklon repo ke komputer lokal Anda:
-   ```bash
+   
    **git clone (https://github.com/ArySuarsyah/test_frontend_qti)**
 
 2. **Masuk ke directory proyekt** : Jalankan perintah berikut di terminal Anda untuk pindah direktori:
-     ```bash
+     
    **cd nama_direktori**
    
 4. **Instalasi dependensi** : Jalankan perintah berikut di terminal Anda untuk menginstall proyek ke komputer lokal Anda:
-     ```bash
+     
    **npm install**
    
 6. **Jalankan proyek** : Jalankan perintah berikut di terminal Anda untuk menjalankan proyek di komputer lokal Anda:\
-     ```bash
+     
    **npm run dev**
 
 
