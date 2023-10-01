@@ -9,7 +9,7 @@ Sales App adalah aplikasi penjualan yang memudahkan Anda untuk mengelola produk,
 ## Teknologi yang Digunakan
 
 - **Next.js**: Framework React untuk pengembangan aplikasi web.
-- **React Redux**: Manajemen state untuk komponen React.
+- **Redux**: Manajemen state untuk komponen React.
 - **Tailwind CSS**: Kerangka kerja CSS yang mudah dikustomisasi.
 - **DaisyUI**: Ekstensi Tailwind CSS dengan komponen UI tambahan.
 - **Iron Session**: Manajemen sesi untuk keamanan.
